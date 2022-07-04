@@ -1,0 +1,15 @@
+body{
+    font-family: 'Gulzar', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.text-color{
+    color: orange;
+}
+h1{
+    font-size: 90px;
+}
+.link-btn{
+    text-decoration: none;
+}
