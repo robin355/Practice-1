@@ -23,18 +23,18 @@ h1 {
 
 .flexiable {
     display: flex;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .half-width img {
-    width: 55%;
+    width: 80%;
     padding-left: 50px;
-    margin: 0px;
+    height: 70%;
 }
 
 .half-width {
     width: 50%;
-    padding: 10px;
     margin-left: 15px;
 }
 
@@ -42,16 +42,17 @@ h1 {
     background-image: url(images/shapes/7.png);
     text-align: center;
     background-repeat: no-repeat;
-    margin: 0px;
+    margin-bottom: -15%;
 
 }
 
 .about {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .recipes {
     text-align: center;
+    padding-top: 0px;
 
 }
 
@@ -62,6 +63,7 @@ h1 {
 
 .reciepes-area {
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .Recipie-item {
@@ -74,15 +76,14 @@ h1 {
 }
 
 .Recipie-item img {
-    width: 100%;
-    padding-left: 0%;
+    padding: 20px 30px;
 
 }
 
 .subscriber-area {
     display: flex;
     box-shadow: 10px 10px 40px gray;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-radius: 10px;
     margin-left: 5%;
     margin-right: 5%;
@@ -109,4 +110,10 @@ h1 {
 .font {
     font-family: italic;
     color: white;
+}
+
+.Recipie-item img {
+    width: 80%;
+
+
 }
