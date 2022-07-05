@@ -1,15 +1,111 @@
-body{
+body {
     font-family: 'Gulzar', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.text-color{
+
+.text-color {
     color: orange;
 }
-h1{
-    font-size: 90px;
+
+h1 {
+    font-size: 70px;
 }
-.link-btn{
+
+.link-btn {
     text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.flexiable {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.half-width img {
+    width: 55%;
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.shapes {
+    background-image: url(images/shapes/7.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.recipes {
+    text-align: center;
+
+}
+
+.text {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.reciepes-area {
+    margin-bottom: 30px;
+}
+
+.Recipie-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+
+.Recipie-item img {
+    width: 100%;
+    padding-left: 0%;
+
+}
+
+.subscriber-area {
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.third-half {
+    width: 30%;
+    padding-left: 5%;
+
+}
+
+.footer-last {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.color {
+    color: gray;
+}
+
+.font {
+    font-family: italic;
+    color: white;
 }
